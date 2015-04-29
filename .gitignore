@@ -58,11 +58,26 @@ target/
 # OS X temporary files
 .DS_Store
 
-# Bower Components
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
 
 
 # Assets files
 .sass-cache
 /assets/css/*
 
-# Node Modules
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+db_repository
