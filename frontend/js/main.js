@@ -1,18 +1,15 @@
 require(
     [
-        "../bower_components/jquery/dst/jquery.min.js",
         "../bower_components/foundation/js/foundation.js",
-        "../node_modules/backbone/node_modules/underscore/underscore.js",
-        "../node_modules/backbone/backbone.js",
         "utils",
-        "../node_modules/requirejs-text/text!../app/templates/signup.html",
+        "../bower_components/requirejs-text/text!../app/templates/signup.html",
         "signup",
-        "../node_modules/requirejs-text/text!../app/templates/login.html",
+        "../bower_components/requirejs-text/text!../app/templates/login.html",
         "login",
-        "../node_modules/requirejs-text/text!../app/templates/partials/header.html",
-        "../node_modules/requirejs-text/text!../app/templates/onboarding.html",
+        "../bower_components/requirejs-text/text!../app/templates/partials/header.html",
+        "../bower_components/requirejs-text/text!../app/templates/onboarding.html",
         "onboarding",
-        "../node_modules/requirejs-text/text!../app/templates/searchresults.html",
+        "../bower_components/requirejs-text/text!../app/templates/searchresults.html",
         "searchresults",
         "propmodel",
         "propview",,
@@ -20,7 +17,7 @@ require(
         "surveyview",
 
     ],
-    function( _jquery_, _foundation_,_underscore_,_backbone_,_utils_,signupHTML,_signup_,loginHTML,_login_,headerHTML,
+    function( _foundation_,_utils_,signupHTML,_signup_,loginHTML,_login_,headerHTML,
         onboardingHTML,_onboarding_,searchresultsHTML,_searchresults_,_propmodel_,_propview_,_surveymodel_,_surveyview_){
     var AppRouter = Backbone.Router.extend({
         routes: {

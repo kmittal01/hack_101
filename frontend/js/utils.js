@@ -1,6 +1,6 @@
 require(
     [
-        "../bower_components/jquery/dst/jquery.min.js",
+        "../bower_components/jquery/dist/jquery.min.js",
     ],
 
 

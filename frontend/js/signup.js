@@ -1,5 +1,6 @@
 var signupjs = function(signupHTML,app_router) {
     $('head').append(signupHTML);
+    console.log($("#signup_base").html());
         $("body").html($("#signup_base").html());
 
      $("#sign-up-manual").on("submit", function(e){
